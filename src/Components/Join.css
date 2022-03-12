@@ -1,0 +1,40 @@
+.Join{
+    width: 100%;
+    padding: 2rem;  
+    background-color: #D6E5FA; 
+}
+
+.Join_heading{    
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+}
+.Join_heading hr{
+    width: 20%;
+    border-bottom: 4px solid #707070; 
+}
+.Join_heading h2{
+    color: #707070;
+}
+
+.Join_para{
+    padding: 30px;
+    color:#707070 ;
+    width: 80%;
+    margin: 0 auto;
+    
+}
+
+.Card{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+@media screen and (max-width:768px){
+    .Join_para{
+        width: 100%;
+    }
+
+  
+}

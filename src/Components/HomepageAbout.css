@@ -1,0 +1,27 @@
+.H_about{
+    background-color: #fff;
+    width: 100%;
+    padding: 4rem;  
+}
+
+.H_about_heading{    
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+}
+.H_about_heading h2{
+    color: #000017;
+}
+.H_about_heading hr{
+    width: 10%;
+    border-bottom: 4px solid #000017; 
+}
+.H_about_para{
+    width: 70%;
+    margin: 0 auto;
+    padding: 2rem 0;
+}
+.H_about_para p{
+    text-align: center;
+    color: #000017;
+}

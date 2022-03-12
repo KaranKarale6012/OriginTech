@@ -1,0 +1,38 @@
+.tesla_board .Tesla_content{
+    display: flex;
+    justify-content: space-around;
+   
+}
+
+.Tesla_left img{
+    padding: 3rem ;
+     width: 100%;
+}
+
+.Tesla_right{
+    padding: 4rem 0;
+    width: 40%;
+}
+.Tesla_right h1{
+    color: #5D4298;
+    text-align: center;
+}
+.Tesla_right p{
+    padding: 1.5rem 0;
+    color: #000017;
+}
+
+@media screen and (max-width:768px) {
+    .tesla_board .Tesla_content{
+        display: block;
+    }
+    .Tesla_left img{
+        width: 100%;
+    }
+
+    .Tesla_right{
+        padding: 0 2rem;
+        width: 100%;
+    } 
+    
+}

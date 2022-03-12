@@ -1,0 +1,23 @@
+.product_explore{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+.product_explore_right{
+    width: 50%;
+}
+.product_explore_right h4{
+    font-size: 20px;
+    color: #333;
+    font-weight: 100;
+}
+
+@media screen and (max-width:768px){
+    .product_explore_left .product_explore_image{
+        height: 100px;
+    }
+    .product_explore{
+        display: block;
+    }
+}

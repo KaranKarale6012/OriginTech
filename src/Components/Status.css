@@ -1,0 +1,40 @@
+.Status{
+    background-color: #000017;
+    width: 100%;
+    padding: 4rem;  
+}
+
+.Status_heading{    
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+}
+.Status_heading hr{
+    width: 10%;
+    border-bottom: 4px solid #fff; 
+}
+
+.Status_left{
+    width: 50%;
+}
+.Status_left h4{
+    padding: 2rem;
+}
+.Status_left .Status-img{
+    display: flex;
+    padding: 2rem;
+}
+.Status_left .Status-img img{
+    height: 25px;
+}
+.Status_left .Status-img h5{
+    padding-left:3rem;
+    font-weight: bold;
+}
+.Status_left .Status-img p{
+    padding: 1rem 3rem;
+}
+
+.Status_right{
+    padding: 3rem 0;
+}

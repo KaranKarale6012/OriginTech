@@ -1,0 +1,32 @@
+.card{
+    background-color: #E2FEF0;
+    border: 2px solid rgba(0,0,0,0.1);;
+    transition: 0.3s;
+    width: 320px;
+    border-radius: 20px;
+}
+
+.card img{
+    padding: 30px;
+    width: 100%;
+}
+.card:hover{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.3);
+}
+
+.card_service h4{
+    border-radius: 20px;
+    color: white;
+    padding: 40px;
+    background-color: #003377;
+    text-align: center;
+   
+}
+
+@media screen and (max-width:768px){
+    .card{
+        margin: 1rem auto;
+    }
+    
+
+}
