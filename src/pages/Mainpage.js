@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import Announcement from '../Components/Announcement'
 import Footer from '../Components/Footer'
 import GetIntouch from '../Components/GetIntouch'

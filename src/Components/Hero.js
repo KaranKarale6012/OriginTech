@@ -1,8 +1,8 @@
-import React from "react";
+import React,{useEffect} from "react";
 import "./Hero.css";
 import Video from "../assets/bg.mp4";
 import Mob_back from "../assets/mobile_back.mp4";
-import header_shape from '../assets/header-shape.svg'
+import header_shape from '../assets/header-shape.svg';
 
 const Hero = () => {
   return (

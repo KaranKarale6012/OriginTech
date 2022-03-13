@@ -5,7 +5,7 @@ import Navbar from '../Components/Navbar'
 
 export default function Contacts() {
   return (
-    <
+    <div>
         <Navbar/>
         <Contact/>
         <Footer/>

@@ -1,5 +1,5 @@
 import React, { useState ,useRef } from "react";
-import emailjs from '@emailjs/browser';
+import emailjs from 'emailjs-com';
 import "./Contact.css";
 import Left from "../assets/Left.png";
 
@@ -7,12 +7,12 @@ function Contact() {
   function sendEmail (e) {
     e.preventDefault();
 
-    emailjs.sendForm('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', form.current, 'YOUR_USER_ID')
-      .then((result) => {
-          console.log(result.text);
-      }, (error) => {
-          console.log(error.text);
-      });
+    // emailjs.sendForm('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', form.current, 'YOUR_USER_ID')
+    //   .then((result) => {
+    //       console.log(result.text);
+    //   }, (error) => {
+    //       console.log(error.text);
+    //   });
   };
 
   const [userData, setUserData] = useState({

@@ -1,7 +1,7 @@
-import React from "react";
+import React,{useState} from "react";
 // import sky from '../../assets/ReusableImages/sky.png'
 import challenge from "../assets/challenge.png";
-import anandkakade from '../assets/anandkakade.png'
+ import anandkakade from '../assets/anand-kakade.png'
 import RandhirPatil from "../assets/RandhirPatil.png"
 import ShubhamOmase from '../assets/ShubhamOmase.jpg'
 import program from "../assets/Program.png";
@@ -15,6 +15,9 @@ import Shape9 from "../assets/shape 9.png";
 import "./Announcement.css";
 
 function Announcement() {
+  const [displayMoreAnand, setdisplayMoreAnand] = useState(true);
+  const [displayMoreshubham, setdisplayMoreshubham] = useState(true);
+  const [displayMorerandhir, setdisplayMorerandhir] = useState(true);
   return (
     <div className="announcement">
       <div className="container">
@@ -25,19 +28,43 @@ function Announcement() {
         </div>
         <div className="card">
           <div className="card--wrapper">
-            <div className="card--main">
+            {displayMoreAnand?
+              <div className="card--main">
               <img src={anandkakade} className="card--image" />
               <h4>Dr.Anand Kakade</h4>
               <p>
               Dr Anand has received his M.Tech and PhD from "Indian Institute of Technology, Kharagpur."
-
-              His expertise is in RF and Microwave, Analog Signal Processing and Embedded Systems. He has over 10 Years of experience in product development. He is known for his innovative ideas.
-
               </p>
               <div className="btn-group">
-                  <a href="#" className="btn--primary">Read More</a>
+                  <a href="#" className="btn--primary" onClick={(e)=>{e.preventDefault(); setdisplayMoreAnand(!displayMoreAnand)}}>Read More</a>
               </div>
             </div>
+            :
+            <div className="card--main">
+            <img src={anandkakade} className="card--image" />
+            <h4>Dr.Anand Kakade</h4>
+            <p>
+            Dr Anand has received his M.Tech and PhD from "Indian Institute of Technology, Kharagpur."
+            His expertise is in RF and Microwave, Analog Signal Processing and Embedded Systems. He has over 10 Years of experience in product development. He is known for his innovative ideas.
+
+            </p>
+            <div className="btn-group">
+                <a href="#" className="btn--primary" onClick={(e)=>{e.preventDefault(); setdisplayMoreAnand(!displayMoreAnand)}}>Show Less</a>
+            </div>
+          </div>
+            }
+            {displayMoreshubham?
+              <div className="card--main">
+              <img src={ShubhamOmase} className="card--image" />
+              <h4>Mr. Shubham Omase</h4>
+              <p>
+              Mr Shubham is business partner at Anand Techno Creations, his expertise is in Embedded Systems, IoT,
+              </p>
+              <div className="btn-group">
+                  <a href="#" className="btn--primary" onClick={(e)=>{e.preventDefault();setdisplayMoreshubham(!displayMoreshubham)}}>Read More</a>
+              </div>
+            </div>
+            :
             <div className="card--main">
               <img src={ShubhamOmase} className="card--image" />
               <h4>Mr. Shubham Omase</h4>
@@ -45,9 +72,21 @@ function Announcement() {
               Mr Shubham is business partner at Anand Techno Creations, his expertise is in Embedded Systems, IoT, Android Development, Cloud side Management and System architecture design. Mr Shubham is known for his innovative solutions.
               </p>
               <div className="btn-group">
-                  <a href="#" className="btn--primary">Read More</a>
+                  <a href="#" className="btn--primary" onClick={(e)=>{e.preventDefault();setdisplayMoreshubham(!displayMoreshubham)}}>Show Less</a>
+              </div>
+            </div>}
+            {displayMorerandhir?
+              <div className="card--main">
+              <img src={RandhirPatil} className="card--image" />
+              <h4>Mr. Randhir J. Patil</h4>
+              <p>
+              Mr Randhir has received his M.Tech in Electronics. His expertise is in Strategic planning and Management.   
+              </p>
+              <div className="btn-group">
+                  <a href="#" className="btn--primary" onClick={(e)=>{e.preventDefault();setdisplayMorerandhir(!displayMorerandhir)}}>Read More</a>
               </div>
             </div>
+            :
             <div className="card--main">
               <img src={RandhirPatil} className="card--image" />
               <h4>Mr. Randhir J. Patil</h4>
@@ -55,9 +94,9 @@ function Announcement() {
               Mr Randhir has received his M.Tech in Electronics. His expertise is in Strategic planning and Management. Randhir is known for his analytical skills and creative ideas for marketing. He has over 5 years of experience in this field.
               </p>
               <div className="btn-group">
-                  <a href="#" className="btn--primary">Read More</a>
+                  <a href="#" className="btn--primary" onClick={(e)=>{e.preventDefault();setdisplayMorerandhir(!displayMorerandhir)}}>Show Less</a>
               </div>
-            </div>
+            </div>}
           </div>
         </div>
         <div className="Shapes">
