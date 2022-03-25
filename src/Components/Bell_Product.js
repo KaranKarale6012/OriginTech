@@ -25,6 +25,7 @@ function Bell_Product() {
         </div>
         </div> 
       <Footer/>
+
     </>
   )
 }

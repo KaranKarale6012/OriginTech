@@ -28,8 +28,8 @@ const Footer = () => {
                         </div> */}
                         <ul className="Footer-list1">
                             <li> <a href="#"> HOME</a> </li>
-                            <li> <a href="#">PRODUCT </a></li>
-                            <li> <a href="#">CONTACT US</a></li>
+                            <li> <a href="/product">PRODUCT </a></li>
+                            <li> <a href="/contact">CONTACT US</a></li>
                             {/* <li> <a href="#"><img src={Pintrest} alt="" /></a></li> */}
                         </ul>
                     </div>

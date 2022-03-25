@@ -15,7 +15,7 @@ import curdmakerhome from '../assets/curdmakerhome.jpg'
 import intruder from '../assets/intruder.jpg'
 import watercontroller from '../assets/watercontroller.jpg'
 import occupancy from '../assets/occupancy.jpg'
-
+import {useNavigate} from "react-router-dom";
 
 import "./Slider.css";
 
@@ -23,6 +23,7 @@ import "./Slider.css";
 import { EffectCoverflow, Pagination } from "swiper";
 
 export default function Slider() {
+  let history = useNavigate();
   return (
     <>
       <div className="slider">
@@ -96,7 +97,11 @@ export default function Slider() {
             </p>
           </div>
           <div className="Home_product-button">
-            <button className="Home_product-Btn">View All</button>
+            <button className="Home_product-Btn"
+            onClick={()=>{
+             history("/product") 
+            }}
+            >View All</button>
           </div>
           <div className="Home_product-img">
             {/* <img src={homeproduct} alt="" /> */}
