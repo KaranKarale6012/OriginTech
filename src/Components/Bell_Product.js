@@ -18,7 +18,9 @@ function Bell_Product() {
             <div className="product--info">
                 <h3 className="product--name">BELL</h3>
                 <h4>Programmable Ringing Bell for Schools and Colleges</h4>
-                <p>More Reliable</p>
+                <h4>Features:-</h4>
+                <h4>i) Low cost</h4>
+                <h4>ii) Works reliably under extreme noise conditions</h4>
             </div>
         </div>
         </div>
