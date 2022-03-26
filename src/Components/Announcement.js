@@ -1,7 +1,7 @@
 import React from "react";
 // import sky from '../../assets/ReusableImages/sky.png'
 import challenge from "../assets/challenge.png";
-import anandkakade from '../assets/anandkakade.png'
+import anandkakade from '../assets/anand-kakade.png'
 import RandhirPatil from "../assets/RandhirPatil.png"
 import ShubhamOmase from '../assets/ShubhamOmase.jpg'
 import program from "../assets/Program.png";

@@ -10,7 +10,7 @@ function ProductHero() {
                 loop="true"
                 autoplay="autoplay"
                 controls="controls"
-                id="background-video"
+                id="Product_video"
                 >                  
                 <source src={HeroBack_Video} type="video/mp4" />
             </video>

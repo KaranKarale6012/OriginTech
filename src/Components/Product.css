@@ -97,13 +97,23 @@
   .product .product--cards .product--info p{
     font-size: 1.2rem;
   }
+
+  .product .product--cards .product--info{
+      width:100%;
+      text-align: center;
+      font-size: 1rem;
+  }
+
   .product .product--cards h3{
     font-size: 1.8rem;
   }
+
   .product--cards h4{
-    font: 1.5rem;
+    font-size: 1rem;
   }
+
   .product .product--cards .btn--secondary{
     padding: 0.8rem 2rem;
   }
+  
 }

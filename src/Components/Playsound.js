@@ -12,7 +12,6 @@ export default function Playsound() {
          loop={true}
          
       />
-      <h1>45</h1>
     </div>
   )
 }
