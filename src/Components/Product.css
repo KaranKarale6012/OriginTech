@@ -32,12 +32,7 @@
   font-weight: 700;
 }
 
-.product--cards h4{
-  font-size: 1.3rem;
-  /* text-align: center; */
-  color: #fff;
-  font-weight: 300;
-}
+
 .product .product--cards .img--block img{
   width: 200px;
 }
@@ -46,15 +41,18 @@
   padding: 0 3rem;
   width: 50%;
 }
-
+.product--info  h3{
+  padding:2rem ;
+  font-size: 2rem;
+}
 .product .product--cards .product--info p{
-  font-size: 1rem;
+  font-size: 1.4rem;
   font-weight: 300;
   padding: 0 0 1rem;
+  letter-spacing: 0.5px;
 }
-.product .product--cards .product--info h4{
-  padding: 1rem 0;
-  /* text-align: center; */
+.product .product--cards .product--info li{
+  font-size: 1.2rem;
 }
 
 .product .product--cards .btn--secondary{

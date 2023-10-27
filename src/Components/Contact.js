@@ -1,9 +1,12 @@
-import React, { useState ,useRef } from "react";
-// import emailjs from '@emailjs/browser';
+import React, { useState  } from "react";
+
+
 import "./Contact.css";
-import Left from "../assets/Left.png";
+
 
 function Contact() {
+ 
+
   const [userData, setUserData] = useState({
     firstname: "",
     lastname: "",
@@ -54,9 +57,7 @@ function Contact() {
   return (
     <div className="contact_page  ">
       <div className="main-form">
-        <div className="left_form">
-          <img src={Left} className="Left" alt="" />
-        </div>
+        
         <div className="form">
           <form method="POST" className="contact_form">
             <h>Send us messege</h>

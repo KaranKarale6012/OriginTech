@@ -1,73 +1,68 @@
 .form {
-    width: 30vw;
-    padding: 2rem;
-    background-color: #fff;
-  }
-  
-  .main-form {
-    padding: 8rem 0;
-    display: flex;
-    justify-content: center;
-    background-color: black;
-    background-image: url("../assets/Formbc.png");
-    background-position: center center;
-  }
-  
+  width: 50vw;
+  padding: 2rem;
+  background-color: #fff;
+}
 
-  .left_form img{
-    width:40vw;
-    padding: 5rem 0 1rem;
-  }
-  
-  
-  input[type="text"],
-  select,
-  textarea {
-    width: 100%;
-    padding: 10px;
-    border: none;
-    border-bottom: 1px solid black;
-    border-radius: 0px;
-    box-sizing: border-box;
-    margin:10px 0 ;
-    resize: vertical;
-  }
-  
-  .Label {
-    color: black;
-    font-size: small;
-    display: flex !important;
-  }
-  
-  input[type="submit"] {
-    background-color: #5d4298;
-    color: white;
-    padding: 12px 20px;
-    border: none;
-    border-radius: 40px;
-    cursor: pointer;
-  }
-  
-  .Submit {
-    padding-top: 2rem;
-  }
-  
-@media screen and (max-width:768px) 
-{
-  .main-form{
+.main-form {
+  padding: 8rem 0;
+  display: flex;
+  justify-content: center;
+  background-color: black;
+  background-image: url("../assets/Formbc.png");
+  background-position: center center;
+}
+
+.left_form img {
+  width: 40vw;
+  padding: 5rem 0 1rem;
+}
+
+input[type="text"],
+select,
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-bottom: 1px solid black;
+  border-radius: 0px;
+  box-sizing: border-box;
+  margin: 10px 0;
+  resize: vertical;
+}
+
+.Label {
+  color: black;
+  font-size: small;
+  display: flex !important;
+}
+
+input[type="submit"] {
+  background-color: #5d4298;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 40px;
+  cursor: pointer;
+}
+
+.Submit {
+  padding-top: 2rem;
+}
+
+@media screen and (max-width: 768px) {
+  .main-form {
     padding: 2rem;
     display: block;
   }
-  .left_form img{
+  .left_form img {
     width: 80vw;
     margin: 0;
-   
   }
-  .form{
+  .form {
     width: 100%;
   }
-  .label{
-  padding:5px;
+  .label {
+    padding: 5px;
   }
-  
 }

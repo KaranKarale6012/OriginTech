@@ -1,7 +1,7 @@
-import React from 'react'
-import Announcement from '../Components/Announcement'
+import React, { useEffect } from 'react'
+
 import Footer from '../Components/Footer'
-import GetIntouch from '../Components/GetIntouch'
+
 import Hero from '../Components/Hero'
 import HomepageAbout from '../Components/HomepageAbout'
 import Navbar from '../Components/Navbar'
@@ -18,8 +18,6 @@ function Mainpage() {
         <TeslaBoard/>
         <Slider/>
         <HomepageAbout/>
-        <Announcement/>
-        {/* <GetIntouch/> */}
         <Footer/>
     </div>
   )

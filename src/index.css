@@ -82,6 +82,11 @@ input{
     margin-right: 0.8rem;  
 }
 
+.product{
+    padding-top: 4rem;
+}
+
+
 @media screen and (max-width:768px){
     h1{
         font-size: 2.1rem;

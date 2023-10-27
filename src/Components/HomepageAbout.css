@@ -25,3 +25,14 @@
     text-align: center;
     color: #000017;
 }
+
+@media screen and (max-width:768px) {
+    .H_about{
+        padding: 2rem ;
+    }
+
+    .H_about_para{
+        width: 100%;
+        margin: 0 auto;
+    }
+}

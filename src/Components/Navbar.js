@@ -2,7 +2,8 @@ import React, { useState } from 'react'
 import { FaBars, FaTimes } from 'react-icons/fa'
 import '../Components/Navbar.css'
 import Logo from '../assets/logo.png'
-import { Link, NavLink } from 'react-router-dom'
+
+import { Link} from 'react-router-dom'
 
 const Navbar = () => {
     const [click, setClick] = useState(false)
@@ -27,7 +28,7 @@ const Navbar = () => {
                             <li>
                                 <Link to='/contact'>Contact Us</Link>
                             </li>
-
+                           
                         </ul>
                     </div>
                 </div>
