@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/origintechindia/static/css/main.4b7a4b72.css",
+    "main.js": "/origintechindia/static/js/main.30ac9b01.js",
+    "static/media/graph_home.jpg": "/origintechindia/static/media/graph_home.bd79343ba7b48b37e80a.jpg",
+    "static/media/teslanewpng.png": "/origintechindia/static/media/teslanewpng.7fb5af22fffc040bbf32.png",
+    "static/media/Background_audio.mp3": "/origintechindia/static/media/Background_audio.20175e6e7a74a6094a01.mp3",
+    "static/media/sanitizer.png": "/origintechindia/static/media/sanitizer.7c5a4aabd8bf9fe83f84.png",
+    "static/media/curdmakerhome.jpg": "/origintechindia/static/media/curdmakerhome.f56526e401587063a73e.jpg",
+    "static/media/watercontroller.jpg": "/origintechindia/static/media/watercontroller.fd60260768838fd0c9c0.jpg",
+    "static/media/bell.jpg": "/origintechindia/static/media/bell.679b14b4805487ba2ab1.jpg",
+    "static/media/curdmakercommercial.jpg": "/origintechindia/static/media/curdmakercommercial.53d021b8c0f23ca9a0d0.jpg",
+    "static/media/intruder.jpg": "/origintechindia/static/media/intruder.9f7cb1b8cc519a295a00.jpg",
+    "static/media/occupancy.jpg": "/origintechindia/static/media/occupancy.868d5c4a8d4c93481259.jpg",
+    "static/media/Formbc.png": "/origintechindia/static/media/Formbc.126738577328a2b2d40e.png",
+    "static/media/logo.png": "/origintechindia/static/media/logo.aad571e0a465a68951c9.png",
+    "static/media/Flogo.png": "/origintechindia/static/media/Flogo.6c15a77de0dbd32eb04e.png",
+    "index.html": "/origintechindia/index.html",
+    "static/media/header-shape.svg": "/origintechindia/static/media/header-shape.1c06358d155af214cea7f5518e8c9039.svg",
+    "main.4b7a4b72.css.map": "/origintechindia/static/css/main.4b7a4b72.css.map",
+    "main.30ac9b01.js.map": "/origintechindia/static/js/main.30ac9b01.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4b7a4b72.css",
+    "static/js/main.30ac9b01.js"
+  ]
+}
